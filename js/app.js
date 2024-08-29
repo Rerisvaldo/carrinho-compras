@@ -12,7 +12,6 @@ function adicionar() {
         let nome = nomePrecoProduto.split(' ');
         let valor = nome.pop().split('');
 
-
         valor.splice(0, 2);
         let preco = parseInt(valor.join(''), 10);
         total = total + preco;
